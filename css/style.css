@@ -1,0 +1,72 @@
+.vierkant
+{
+    height: 1024px;
+    width: 1024px;
+    display: flex;
+    border: 5px solid black;
+}
+.helftHoogte
+{
+    height: 50%;
+}
+.derdeBreedte
+{
+    height: 100%;
+    width: calc(100% / 3 );
+}
+.tweeDerdeHoogte
+{
+    height: calc(200% / 3 );
+}
+.eenDerdeHoogte
+{
+    height: calc(100% / 3 );
+}
+.halveBreedte
+{
+    width: 50%;
+}
+.volleBreedte
+{
+    width: 100%;
+}
+div
+{
+    box-shadow: 0 0 0 5px black inset;
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.grey
+{
+    background-color: grey;
+}
+.red
+{
+    background-color: red;
+}
+.yellow
+{
+    background-color: yellow;
+}
+.blauw
+{
+    background-color: blue;
+}
+.brown
+{
+    background-color: brown;
+}
+#divOnTop { 
+    position: absolute;
+}
+
+img
+{
+    position: relative;
+}
+#jumpscare
+{
+    width: 855px;
+    height: 531px;
+}
